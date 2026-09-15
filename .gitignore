@@ -1,0 +1,28 @@
+gitignore
+# Daten & Modelle
+data/*
+!data/.gitkeep
+models/*
+!models/.gitkeep
+*.csv
+*.parquet
+*.h5
+*.pkl
+outputs/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# Secrets
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
