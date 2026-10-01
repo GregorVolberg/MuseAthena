@@ -1,22 +1,17 @@
-name: muse        # This will become the name of your environment
+name: openmuse        # This will become the name of your environment
 channels:
   - conda-forge
-  - defaults
 dependencies:     # The list of packages to include in your environment
   - python=3.12 
   - numpy>=1.24.0
   - pandas>=1.5.0
   - matplotlib>=3.5.0
-  - mne-base
-  - h5io 
-  - h5py 
   - pymatreader
   - ipython
   - ipykernel
   - mne-lsl>=1.10.0
-  - vispy>=0.12.0 # for OpenMuse
+  - vispy>=0.12.0 # for stream viewer
   - bleak>=0.21.0 # bluethooth low energy
   - pip # installiere pip
   - pip: # spezifiziere Module, die mit pip installiert werden sollen
-    - brainflow
     - https://github.com/DominiqueMakowski/OpenMuse/zipball/main

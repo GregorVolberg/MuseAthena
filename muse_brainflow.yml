@@ -1,0 +1,14 @@
+name: muse_brainflow # This will become the name of your environment
+channels:
+  - conda-forge
+  - defaults
+dependencies:        # The list of packages to include in your environment
+  - python=3.11 
+  - numpy>=1.24.0
+  - pandas>=1.5.0
+  - ipython
+  - ipykernel
+  - pip # installiere pip
+  - pip: # spezifiziere Module, die mit pip installiert werden sollen
+    - brainflow>=5.21.0
+    - setuptools<71
