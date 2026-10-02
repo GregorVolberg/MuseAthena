@@ -11,7 +11,7 @@ Das Frequenzspektrum zeigt an den posterioren Elektroden TP9 und TP10 einen klar
 
 
 ## Theta / Beta ratio
-Prozedur: 6 x 30 Sekunden Aufnahme, abwechselnd Konzentration (Kopfrechnen) und Entspannung. Auswertung: Entfernen von Blinzelartefakten, Ausgabe des Spektrums zur Selektion relevanter Frequenzen und Elektroden. Errechnen der mittleren Theta (4 bis 7 Hz) - und Beta (13 bis 30 Hz) - Power, Darstellung als Balkendiagramm.
+Prozedur: 6 x 30 Sekunden Aufnahme mit Preset p1035, abwechselnd Konzentration (Kopfrechnen) und Entspannung. Auswertung: Entfernen von Blinzelartefakten, Ausgabe des Spektrums zur Selektion relevanter Frequenzen und Elektroden. Errechnen der mittleren Theta (4 bis 7 Hz) - und Beta (13 bis 30 Hz) - Power, Darstellung als Balkendiagramm.
 
 ![Power spectrum showing theta](figures/theta_psd.png)
 
