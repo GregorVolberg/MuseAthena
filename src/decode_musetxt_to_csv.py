@@ -3,8 +3,7 @@ import pandas as pd
 import OpenMuse
 import os
 
-#fname = "2026-09-30-eyes_open_eyes_closed"
-fname = "2026-09-30-compute_or_relax"
+fname = "2026-10-08-160300_p20"
 
 eegdata = fname + ".txt"
 with open(eegdata, "r", encoding="utf-8") as f:
