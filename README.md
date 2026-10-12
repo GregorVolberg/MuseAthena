@@ -19,3 +19,12 @@ Elektrode AF7 wurde ausgewählt, weil sie insgesamt höhere Theta-Power zeigte a
 
 ![theta - beta ratio](figures/tbr.png)
 
+
+## Schlaf
+
+Ich habe zwei Mal über Nacht beim Schlafen Athena Muse aufgehabt, einmal ohne und einmal mit Aufnahme. Der Komfort ist auch beim Schlafen sehr gut. Das Stirnband hat mich kaum gestört. Die EEG-Ableitung ist nach ca. drei Stunden abgebrochen. Die Daten habe ich in 30s - Epochen zerschnitten und die Epochen automatisiert korrigiert bzw. zurückgewiesen. Es wurden 74.34% der Epochen beibehalten. Im Plot sieht man die Verteilung der guten (grün) und schlechten (rot) Epochen. Im vorliegenden Datensatz sind vor allem zu Beginn viele schlechte Epochen, möglicherweise gab es dort viele Bewegungen.
+
+![sleep EEG](figures/reject_log.png)
+
+
+

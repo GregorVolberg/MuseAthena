@@ -6,7 +6,7 @@ from datetime import datetime
 from scipy.ndimage import gaussian_filter
 
 # magic iypython, non-blocking mode for figures
-%matplotlib qt
+#%matplotlib qt
 
 EEGFILENAME   = "2026-10-01-compute_or_relax"
 ONSETFILENAME = "onset_timestamp_theta.txt"
