@@ -5,7 +5,7 @@ from datetime import datetime, timezone
 def wait_and_beep(seconds_to_wait: int, hzbeep: int):
     time.sleep(seconds_to_wait)
     winsound.Beep(hzbeep, 500)
-
+#beep
 
 utc_now = datetime.now(timezone.utc)
 print(f"[BEEP] UTC-Zeit: " + utc_now.isoformat())
