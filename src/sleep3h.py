@@ -14,7 +14,7 @@ df.drop(columns=["time"], inplace=True)
 
 sfreq = 256 
 labels = df.columns 
-
+# hallo
 data = df[labels].to_numpy().T 
 data = data * 1e-6
 
